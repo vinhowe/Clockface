@@ -1,0 +1,16 @@
+name: Clockface
+version: 0.1.0
+main: Clockface
+api-version: 1.13
+author: vinhowe
+description: Dynamic analog clock hands
+website: https://github.com/vinhowe/Clockface
+commands:
+  clock:
+    usage: /<command> <<add <name> <radius> <hour hand material> <minute hand material>>|<delete <name>>>
+    description: Manage clocks
+    permission: clockface.manage
+permissions:
+  clockface.*:
+    default: op
+    description: Give players with op everything by default
